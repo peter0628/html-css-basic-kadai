@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+.google-fonts {
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 700
+  
+  .josefin-sans-<uniquifier> {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+}
+
+*{
+  font-size: 20px;
+  text-align: center;
+}
+
+.google-fonts {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+
+.p_pink{
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 192, 203);
+  font-size: 40px;
+}
+
+.pink{
+  color: rgb(255, 192, 203);
+}
+
+.m_blue{
+  font-family: "Josefin Sans", sans-serif;
+  color: skyblue;
+  font-size: 40px;
+}
+
+.blue{
+  color: skyblue;
+}
+
+#parent p {
+  font-weight: bold;
+}
